@@ -1,10 +1,9 @@
 module.exports = {
-    launch: {
-        slowMo: 300,
-        headless: false,
-        defaultViewport: null,
-        args: ['--start-maximized'] //— используем максимальный размер окна браузера
-      },
-    
-  };
-  
+  launch: {
+    headless: false,
+    slowMo: 100,
+    defaultViewport: null,
+    executablePath: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    args: ["--start-maximized"],
+  },
+};
