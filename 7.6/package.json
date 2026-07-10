@@ -175,7 +175,9 @@
   "cy:open": "cypress open",
   "cy:run": "cypress run",
   "cy:open:mobile": "cypress open --config-file cypress.mobile.config.js",
-  "cy:run:mobile": "cypress run --config-file cypress.mobile.config.js"
+  "cy:run:mobile": "cypress run --config-file cypress.mobile.config.js",
+  "cy:run:desktop:chrome": "cypress run --config-file cypress.config.js --browser chrome --headed",
+  "cy:run:mobile:edge": "cypress run --config-file cypress.mobile.config.js --browser edge --headless"
 },
   "keywords": [],
   "author": "",
